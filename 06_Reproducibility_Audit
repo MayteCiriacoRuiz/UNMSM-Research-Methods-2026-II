@@ -1,0 +1,27 @@
+# 06 Reproducibility Audit (Session 6)
+
+Weekly deliverable for *Research Methods & Scientific Integrity in AI* (UNMSM Doctoral Program in Deep Tech, Prof. Dr. Loveleen Gaur). Student: Mayté Ciriaco Ruiz.
+
+## Paper audited
+
+Xiong, C., Zheng, G., Ma, X., Li, C., & Zeng, J. (2025). *DelphiAgent: A trustworthy multi-agent verification framework for automated fact verification.* Information Processing & Management, 62(6), 104241. https://doi.org/10.1016/j.ipm.2025.104241
+
+Code repository audited: https://github.com/zjfgh2015/DelphiAgent
+
+The paper was chosen from the auditor's own research area (LLM-based multi-agent fact verification) because the authors publish their code.
+
+## Files
+
+| File | Content |
+| --- | --- |
+| `Reproducibility_Audit_Report.pdf` / `.docx` | The audit report: paper metadata, nine-item reproducibility scorecard (Yes / Partial / No, with page or file evidence), experimental setup, leakage check, statistical rigor, missing information, repository execution log, overall score and three recommendations |
+| `DelphiAgent_execution_log.ipynb` | Google Colab notebook with every command run on the repository and its output: environment, clone, README, searches for seeds and temperature in all scripts, the failed install from the README, and the Python 3.12 attempt |
+
+## Method
+
+- The paper was scored item by item with the course scorecard. Every answer cites a page of the paper or a file of the repository; information the paper does not report is marked "Not reported".
+- The repository was cloned and inspected on 25 October 2026 and executed in Google Colab. No API key was used.
+
+## Result in one paragraph
+
+Overall score 3.5 out of 9 (Yes = 1, Partial = 0.5, No = 0). The paper describes its datasets, splits and architecture, but its results are single runs with no seeds, no uncertainty and no named statistical test. The code could not be run as published: the install command in the README resolves to an incompatible package version, the required version installs only on Python 3.12 or older, and the main script then stops because its input data is not in the repository.
