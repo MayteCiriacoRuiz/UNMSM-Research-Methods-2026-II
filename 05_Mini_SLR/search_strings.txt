@@ -1,0 +1,11 @@
+Scopus search log - 24 October 2026
+Filters applied: publication year 2020-2026, document type article. Iteration 3 also restricts to journal sources.
+
+Iteration 1 - 0 records
+TITLE-ABS-KEY(("multi-agent" OR "multi-agent system*" OR "LLM agent*") AND ("information extraction" OR "document verification" OR "fact-checking" OR "fact verification" OR "claim verification") AND ("public document*" OR "government document*" OR "administrative document*" OR "legal document*" OR "civic") AND (Spanish OR "low-resource language*" OR Peru OR "Latin America")) AND PUBYEAR > 2019 AND PUBYEAR < 2027 AND DOCTYPE(ar)
+
+Iteration 2 - 72 records
+TITLE-ABS-KEY(("multi-agent" OR "multi-agent system*" OR "LLM agent*") AND ("information extraction" OR "document verification" OR "fact-checking" OR "fact verification" OR "claim verification")) AND PUBYEAR > 2019 AND PUBYEAR < 2027 AND DOCTYPE(ar)
+
+Iteration 3 (final) - 44 records
+TITLE-ABS-KEY(("multi-agent" OR "multi-agent system*" OR "LLM agent*") AND ("large language model*" OR LLM OR LLMs) AND ("information extraction" OR "document verification" OR "fact-checking" OR "fact verification" OR "claim verification")) AND PUBYEAR > 2019 AND PUBYEAR < 2027 AND DOCTYPE(ar) AND SRCTYPE(j)
